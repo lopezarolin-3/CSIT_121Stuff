@@ -1,8 +1,9 @@
 # CSIT_121Stuff
-Rolin Lopez
-<h1>List of my Assignments</h1>
+<h1>Rolin Lopez</h1>
 
-<h2>Lab Assignment</h2>
+<h2>List of my Assignments</h2>
+
+<h3>Lab Assignment</h3>
 
 <ol>
 <li><a href="Lab01/aboutme.html" target="_blank">Lab01</a></li>
