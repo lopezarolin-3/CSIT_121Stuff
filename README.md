@@ -4,8 +4,8 @@
 <h2>List of my Assignments</h2>
 <h3>List of Practice Assignments</h3>
 <ol>
-  <li><a href="Practice/HTMLPractice.html" target="_blank">Practice 01</li>
-  </ol>
+    <li><a href="Practice/HTMLPractice.html" target="_blank">Practice 01</li>
+</ol>
 <h4>Lab Assignment</h4>
 
 <ol>
