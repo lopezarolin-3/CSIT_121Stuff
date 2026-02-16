@@ -1,0 +1,37 @@
+/* Body styling */
+body {
+    background-image: url(abstract-rose-quarz-pink-fusia-background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Heading styling*/
+h1, h2, h3, h4 h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:darkgreen;
+    
+}
+/* ID selector */
+#main-title {
+    text-align: center;
+    font-size: 40px;
+}
+/* Class selector*/
+.author {
+    font-style: italic;
+    color: brown;
+}
+/* links styling */
+a {
+    font-style: oblique;
+    color: rgb(109, 20, 125);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Border styling */
+div {
+    border: 15px solid rgb(255, 112, 112);
+    margin: 20px;
+    padding: 40px;
+}
