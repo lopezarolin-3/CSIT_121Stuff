@@ -6,7 +6,7 @@
 
 <ol>
     <li><a href="Practice/HTMLPractice.html" target="_blank">Practice 01</a></li>
-     <li><a href="Practice02/CCSPractice.html" target="_blank">Practice 02</a></li>
+     <li><a href="Practice02/indexcsspractice.html" target="_blank">Practice 02</a></li>
 </ol>
 
 <h4>Lab Assignment</h4>
