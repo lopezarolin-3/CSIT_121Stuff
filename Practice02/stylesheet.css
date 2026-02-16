@@ -1,0 +1,38 @@
+/* Box styling */
+.box {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(180, 127, 233);
+  align-content: center;
+  border: 2px solid black;
+  text-align: center;
+  
+
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 2s;
+  transition: transform 2s ease 0s;
+}
+
+.box:hover {
+    transform: rotate(360deg);
+    background-color: blue;
+}
+a {
+    font-style: oblique;
+    color: rgb(109, 20, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
+.links {
+  transition-property: scale;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 2s;
+  transition: scale 2s ease 0s;
+}
+a :hover {
+  transform: scale(2px);
+
+}
