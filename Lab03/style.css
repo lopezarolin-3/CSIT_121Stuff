@@ -1,0 +1,41 @@
+/* Body styling */
+body {
+    background-image: linear-gradient(to bottom, white, rgb(254, 121, 254));
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Heading styling*/
+h1, h2, h3, h4 h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:rgb(45, 149, 4);
+    
+}
+/* ID selector */
+#main-title {
+    text-align: center;
+    font-size: 40px;
+}
+/* Class selector*/
+.author {
+    font-style: italic;
+    color: brown;
+}
+/* links styling */
+a {
+    font-style: oblique;
+    color: rgb(109, 20, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Border styling */
+div {
+    border: 15px solid rgb(160, 50, 155);
+    margin: 20px;
+    padding: 40px;
+}
+/* List styling */
+ul  {
+    list-style-type: square;
+}
