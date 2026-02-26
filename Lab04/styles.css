@@ -1,0 +1,219 @@
+/* Body styling */
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    margin: 20px;
+    background-image: url('Images/bg.svg');
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* Heading styling */
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'ethnocentric';
+    font-size: 30px;
+    padding: 5px;
+}
+
+/* Paragraph styling */
+p {
+    text-align: center;
+    padding: 5px;
+}
+
+/* links styling */
+section ul, li{
+    padding: 5px;
+}
+
+/* Main styling */
+main {
+    width: 70%;
+    max-width: 640px;
+    min-width: 600px;
+    min-height: 100%;
+    border: .2em solid rgb(6, 6, 6);
+    margin: auto;
+    background-color: rgb(234, 230, 254);
+    padding: 1em 2em;
+}
+
+/* Main nav bar styling */
+main nav {
+    width: 100%;
+    padding: 1rem 1%;
+    background-color: rgb(93, 94, 121);
+    border: .2em solid rgb(34, 49, 49);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Nav list styling */
+main nav ul {
+    font-family: "ethnocentric", sans-serif;
+    display: flex;
+    padding: 10px;
+    margin: 0 0.5px;
+    padding: 0;
+    list-style: none;
+}
+
+
+main nav ul li {
+    margin: 0 0.5em;
+
+}
+
+/* Nav list a styling */
+main nav ul li a {
+    position: relative;
+    display: inline-block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgb(176, 210, 239);
+    padding: 0 1em;
+    color: rgb(250, 236, 236);
+    transition: 0.9s;
+    
+}
+
+/* Nav list hover styling */
+main nav ul li a:hover {
+    background-color: rgb(3, 3, 3);
+    
+}
+
+/* Image styling */
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+/* Universal element styling */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+/* .wrapper element styling */
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .image element styling */
+.image {
+    max-inline-size: 100%;
+    position: relative;
+}
+
+/* .content element styling */
+.content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+/* .content hover styling */
+.content:hover {
+    opacity: 1;
+}
+
+/* .content h2 styling */
+.content h2 {
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+/* Merulina text styling */
+.merulina-text {
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(92, 255, 201);
+}
+
+/* Merulina title styling */
+.merulina-title {
+    font-family: "ethnocentric";
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(92, 255, 201);
+}
+
+/* Vespera text styling */
+.vespera-text {
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(200, 142, 255);
+}
+
+/* Vespera title styling */
+.vespera-title {
+    font-family: "ethnocentric";
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(200, 142, 255);
+}
+
+/* Helios text styling */
+.helios-text {
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(253, 200, 120);
+}
+
+/* Helios title styling */
+.helios-title {
+    font-family: "ethnocentric";
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(253, 200, 120);
+}
+
+/* Kenji text styling */
+.kenji-text {
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(108, 196, 255);
+}
+
+/* Kenji title styling */
+.kenji-title {
+    font-family: "ethnocentric";
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(108, 196, 255);
+}
+
+/* .content universal styling */
+.content > * {
+    transform: translateY(30px);
+    transition: transform 1s;
+}
+
+/* .content hover styling */
+.content:hover > * {
+    transform: translateY(0px);
+
+}
