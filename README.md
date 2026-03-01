@@ -2,8 +2,10 @@
 <h1>Rolin Lopez</h1>
 
 <h2>List of my Assignments</h2>
-<h3>List of Practice Assignments</h3>
+
  <p><a href="https://lopezarolin-3.github.io/CSIT_121Stuff/" target="_blank">Quick Access to Webpage</a></p>
+ 
+<h3>List of Practice Assignments</h3>
 
 <ol>
     <li><a href="Practice/HTMLPractice.html" target="_blank">Practice 01</a></li>
