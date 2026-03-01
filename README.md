@@ -3,7 +3,7 @@
 
 <h2>List of my Assignments</h2>
 
- <p><a href="https://lopezarolin-3.github.io/CSIT_121Stuff/" target="_blank">Quick Access to Livesite</a></p>
+ <p><a href="https://lopezarolin-3.github.io/CSIT_121Stuff/" target="_blank">Quick Access to Live Site</a></p>
  
 <h3>List of Practice Assignments</h3>
 
