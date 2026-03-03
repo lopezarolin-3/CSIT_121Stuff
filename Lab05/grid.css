@@ -1,0 +1,152 @@
+/* universal styling */
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+
+/* main content styling */
+body, h1, h2 {
+    margin: 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 162, 109);
+    margin-bottom: 50px;
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+
+
+/* paragraphs styling */
+p {
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/* lists styling */
+ul, li {
+    color: black;
+}
+
+
+/* ordered list styling */
+ol {
+    list-style: none;
+}
+
+
+/* container styling */
+.container {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 16rem 1fr 16rem;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header header header"
+    "nav content sidebar"
+    "footer footer footer";
+    min-height: 100vh;
+}
+
+
+/* header styling */
+header {
+    text-align: center;
+    font-size: 40px;
+    top: 0;
+    grid-area: header;
+    padding: 0.4rem;
+    background-color: rgb(216, 216, 216);
+}
+
+
+/* link decoration style */
+a {
+    text-decoration: none;
+}
+
+
+/* nav styling */
+nav {
+    top: 0;
+    position: sticky;
+    align-self: flex-start;
+    font-size: 40px;
+    grid-area: nav;
+    padding: 0.4rem;
+    background-color: rgb(253, 178, 216);
+}
+
+
+/* Nav styling */
+nav ul li {
+    position: relative;
+    display: inline-block;
+    font-size: 1.05rem;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgb(159, 210, 255);
+    padding: 0 1em;
+    color: rgb(250, 236, 236);
+    transition: 0.9s;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    
+}
+
+
+/* Nav list hover styling */
+nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Main content */
+main {
+    grid-area: content;
+    padding: 2rem;
+    background-color: rgb(255, 253, 253);
+}
+
+
+/* Sidebar styling */
+aside {
+    top: 0;
+    position: sticky;
+    align-self: start;
+    font-size: 20px;
+    text-align: center;
+    grid-area: sidebar;
+    padding: 2rem;
+    background-color: rgb(255, 179, 221);
+}
+
+
+/* footer styling */
+footer {
+    text-align: center;
+    grid-area: footer;
+    padding: 2rem;
+    background-color: rgb(216, 216, 216);
+}
+
+
+/* media querie */
+@media (max-width: 800px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto minmax(5rem,auto) 1fr minmax(5rem, auto) auto;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "content"
+        "sidebar"
+        "footer";
+    }
+}
