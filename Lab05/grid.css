@@ -40,8 +40,6 @@ ol {
 
 /* container styling */
 .container {
-    background-image: url(images/img1.jpg);
-    background-repeat: repeat;
     background-color: rgb(255, 255, 255);
     display: grid;
     gap: 1rem;
@@ -82,7 +80,7 @@ nav {
     grid-area: nav;
     padding: 0.4rem;
     margin-left: 15px;
-    background-color: rgb(253, 178, 216);
+    background-color: rgb(204, 204, 204);
 }
 
 
@@ -129,7 +127,7 @@ aside {
     grid-area: sidebar;
     padding: 2rem;
     margin-right: 15px;
-    background-color: rgb(255, 179, 221);
+    background-color: rgb(204, 204, 204);
 }
 
 
@@ -155,4 +153,5 @@ footer {
         "sidebar"
         "footer";
     }
+
 }
