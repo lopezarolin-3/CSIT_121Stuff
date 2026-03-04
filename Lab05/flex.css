@@ -46,20 +46,20 @@ nav ul {
 
 /* navigation styling */
 nav ul {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
 }
 
 
 /* nav styling */
 nav {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background: rgb(70, 110, 162);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgb(70, 110, 162);
 }
 
 
@@ -149,3 +149,4 @@ footer {
   .facts {grid-area: 2 / span 1;}
   .footer {grid-area: 3 / span 6;}
 }
+
