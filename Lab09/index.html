@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee XML Viewer</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+    <script>
+        let isLoaded = false;
+        let isVisible = false;
+
+        function loadXMLDoc() {
+            let xmlhttp = new XMLHttpRequest();
+
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    empDetails(this);
+                }
+            };
+
+            xmlhttp.open("GET", "employee.xml", true);
+            xmlhttp.send();
+        }
+
+        function empDetails(xml) {
+            let xmlDoc = xml.responseXML;
+
+            let table =
+                `<tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Title</th>
+                    <th>Division</th>
+                    <th>Building</th>
+                    <th>Room</th>
+                </tr>`;
+
+            let x = xmlDoc.getElementsByTagName("employee");
+
+            for (let i = 0; i < x.length; i++) {
+                table += `<tr>
+                    <td>${x[i].getElementsByTagName("firstname")[0].textContent}</td>
+                    <td>${x[i].getElementsByTagName("lastname")[0].textContent}</td>
+                    <td>${x[i].getElementsByTagName("title")[0].textContent}</td>
+                    <td>${x[i].getElementsByTagName("division")[0].textContent}</td>
+                    <td>${x[i].getElementsByTagName("building")[0].textContent}</td>
+                    <td>${x[i].getElementsByTagName("room")[0].textContent}</td>
+                </tr>`;
+            }
+
+            document.getElementById("id").innerHTML = table;
+        }
+
+        // TOGGLE BUTTON FUNCTION
+        function toggleTable() {
+            let table = document.getElementById("id");
+            let btn = document.getElementById("toggleBtn");
+
+            if (!isVisible) {
+                if (!isLoaded) {
+                    loadXMLDoc();
+                    isLoaded = true;
+                }
+
+                table.style.display = "table";
+                btn.innerText = "Hide Employee Data";
+                isVisible = true;
+
+            } else {
+                table.style.display = "none";
+                btn.innerText = "Show Employees";
+                isVisible = false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+        <button type="button" class="button" onclick="toggleTable()" id="toggleBtn">
+            Get Employee Data
+        </button>
+
+    <br><br>
+
+    <table id="id"></table>
+
+    <h2>LAB 09 - XML</h2>
+    <p>Work cited:</p>
+    <p><a href="https://www.geeksforgeeks.org/javascript/read-xml-file-and-print-the-details-as-tabular-data-by-using-javascript/">Geekforgeeks Website</a></p>
+    <p>For this assignment I asked the AI to help me how to incorporate the toggle on button click.</p>
+    <p>This is a screenshot on what the AI provided for me:</p>
+
+
+    <img src="images/AIassitedcode.png" alt="AI assited Code Screenshot">
+
+</body>
+
+</html>
