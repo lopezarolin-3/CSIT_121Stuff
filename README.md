@@ -29,5 +29,5 @@
 
 <h4>Graphic Design Project</h4>
 <ol>
-     <li><a href="Lab01/aboutme.html" target="_blank">Graphic Design Spreadsheet</a></li>
+     <li><a href="graphicdesignproject4/character.html" target="_blank">Graphic Design Spreadsheet</a></li>
 </ol>
