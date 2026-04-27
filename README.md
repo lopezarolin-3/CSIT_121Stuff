@@ -26,3 +26,8 @@
     <li><a href="Lab08/index.html" target="_blank">Lab 08</a></li>
     <li><a href="Lab09/index.html" target="_blank">Lab 09</a></li>
 </ol>
+
+<h4>Graphic Design Project</h4>
+<ol>
+     <li><a href="Lab01/aboutme.html" target="_blank">Graphic Design Spreadsheet</a></li>
+</ol>
