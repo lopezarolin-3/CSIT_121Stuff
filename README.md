@@ -26,6 +26,7 @@
     <li><a href="Lab08/index.html" target="_blank">Lab 08</a></li>
     <li><a href="Lab09/index.html" target="_blank">Lab 09</a></li>
     <li><a href="Lab10/index.html" target="_blank">Lab 10</a></li>
+    <li><a href="FinalProjectCSIT121/index.html" target="_blank">Final Project</a></li>
 </ol>
 
 <h4>Graphic Design Project</h4>
