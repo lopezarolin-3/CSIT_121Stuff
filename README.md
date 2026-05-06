@@ -27,6 +27,7 @@
     <li><a href="Lab09/index.html" target="_blank">Lab 09</a></li>
     <li><a href="Lab10/index.html" target="_blank">Lab 10</a></li>
     <li><a href="https://lopezarolin-3.github.io/CSIT_121Stuff/" target="_blank">Final Project</a></li>
+    <li><a href="sources.html" target="_blank">Final Project Work Cited</a></li>
 </ol>
 
 <h4>Graphic Design Project</h4>
